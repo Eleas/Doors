@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x1305db0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x7f393c519d60"/>
+  <activeNode nodeId="node-0x7f3940959d90"/>
   <item nodeId="node-0x1305db0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
+Welcome volunteer! Thank you again for agreeing to undergo this simple intelligence test. You will be faced with a number of rooms. Inside of each is one puzzle. Solve each puzzle to open the next door. You can quit at any time by typing QUIT. Good luck!
+
 Many Doors
 An Interactive Fiction by Y&apos;Gael of Atrii
 Release 1 / Serial number 210118 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
-First
+First Room
 You can see the first door here.
 
 &gt;</result>
@@ -27,6 +29,7 @@ You can see the first door here.
       <child nodeId="node-0x7f3948397140"/>
       <child nodeId="node-0x7f3948397bc0"/>
       <child nodeId="node-0x7f393c2f3ea0"/>
+      <child nodeId="node-0x7f3940959190"/>
     </children>
   </item>
   <item nodeId="node-0x1b93710">
@@ -275,7 +278,7 @@ You can see the first door and a large box (closed) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -299,18 +302,18 @@ The contraption is currently switched on.
   </item>
   <item nodeId="node-0x7f393c3e6ef0">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Second
+    <result xml:space="preserve">Second
 You can see the first door, the second door and a large box (closed) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
       <child nodeId="node-0x7f393c519160"/>
+      <child nodeId="node-0x7f3940729f00"/>
     </children>
   </item>
   <item nodeId="node-0x7f393c519160">
@@ -319,7 +322,7 @@ You can see the first door, the second door and a large box (closed) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -335,7 +338,7 @@ You open the medium box, revealing a small box.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -351,7 +354,7 @@ You open the small box, revealing a smaller box.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -367,7 +370,7 @@ You open the smaller box, revealing a tiny box.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -383,7 +386,7 @@ You open the tiny box, revealing a tiny key.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -397,7 +400,7 @@ You open the tiny box, revealing a tiny key.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -411,7 +414,7 @@ You open the tiny box, revealing a tiny key.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -425,7 +428,7 @@ You open the tiny box, revealing a tiny key.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -442,7 +445,19 @@ You can see the second door here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f3940729f00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">First
+You can see the first door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -451,17 +466,19 @@ You can see the second door here.
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the first door)
 
-Second
+Second Room
 You can see the first door, the second door and a large box (closed) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
       <child nodeId="node-0x7f393c2f38a0"/>
+      <child nodeId="node-0x7f393c519ee0"/>
+      <child nodeId="node-0x7f3940959910"/>
     </children>
   </item>
   <item nodeId="node-0x7f393c2f38a0">
@@ -589,6 +606,203 @@ You open the smaller box.
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f393c519ee0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+First
+You can see the first door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940729180"/>
+      <child nodeId="node-0x7f3940729d80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940729180">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Second
+You can see the first door, the second door and a large box (closed) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940729300"/>
+      <child nodeId="node-0x7f3940729a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940729300">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940729480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940729480">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the second door)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940729600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940729600">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Second
+You can see the first door, the second door and a large box (closed) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f3940729a80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+First
+You can see the first door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940729900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940729900">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Second
+You can see the first door, the second door and a large box (closed) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940729780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940729780">
+    <command xml:space="preserve">examine door</command>
+    <result xml:space="preserve">Which do you mean, the first door or the second door?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940729c00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940729c00">
+    <command xml:space="preserve">first</command>
+    <result xml:space="preserve">A contraption is attached to the doorknob.The contraption has a button and a lit LED. The LED is green.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f3940729d80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f3940959910">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the second door)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940959a90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940959a90">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the large box, revealing a medium box.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940959c10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940959c10">
+    <command xml:space="preserve">open all</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940959d90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940959d90">
+    <command xml:space="preserve">open medium</command>
+    <result xml:space="preserve">You must take it out of the large box first.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -794,6 +1008,75 @@ You can see the first door and a large box (closed) here.
   <item nodeId="node-0x7f393c3e65f0">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f3940959190">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940959610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940959610">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">&quot;Click&quot;
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940959490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940959490">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the first door)
+
+Second
+You can see the first door, the second door and a large box (closed) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940959310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940959310">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The door has locked behind you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f3940959790"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f3940959790">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
