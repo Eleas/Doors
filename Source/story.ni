@@ -1,15 +1,17 @@
 "Many Doors" by "Y'Gael of Atrii"
 
 [Rules-----------------------------------------
-1. All new rooms must be north of the previous room. No "side" rooms: you only get one per puzzle.
-2. All rooms must be named for their place in the sequence (e.g. "First Room", "Second Room").
-3. I have already put in some code to make the player lose all previous items when entering a room. You must make your own items for the next room, or you can pull one of the previous items from "nowhere" when the player enters".
-4. Do not interfere with anyone elses' room code. If there is a bug, post about it on the project page and any changes will be approved.
-5. You may add as many new puzzles/rooms as you like, as long as you only add one new room per puzzle and you follow the format outlined above.
-6. Suggestions for an overall story are fine. For now, I'll put in something simple to get the point across.]
+1.New rooms must be north of the previous room. No "side" rooms.
+2. Only one room per puzzle permitted.
+3. Rooms must be named for their place in the sequence (e.g. "First Room", "Second Room").
+4. Open your room code with a new chapter and comment, following the format of the first room.
+5. I have already put in some code to make the player lose all previous items when entering a new room, and the player cannot go south without getting a "locked door" message. You must make your own items for the next room, or you can pull one of the previously items from "nowhere" when the player enters".
+6. Do not interfere with anyone else's room code unless it contains a game-breaking bug or unless we have discussed and agreed upon it in the project page.
+7. Each contributor may add as many new puzzles/rooms as they like, as long as they only add one new room per puzzle and they follow the format outlined above.
+8. Suggestions for an overall story are fine. For now, I'll put in something simple to get the point across.]
 
 When play begins:
-	say "Welcome volunteer! Thank you again for agreeing to undergo this simple intelligence test. You will be faced with a number of rooms. Inside of each is one puzzle. Solve each puzzle to open the next door. You can quit at any time by typing QUIT. Good luck!".
+	say "Welcome volunteer! Thank you again for agreeing to undergo this simple intelligence test. You will be faced with a number of rooms. Inside each room is one puzzle. Solve each puzzle to open the next door. You can quit at any time by typing QUIT. Good luck!".
 
 After going somewhere:
 	let L be the list of things carried by the player;
@@ -25,6 +27,19 @@ Instead of going south:
 	otherwise:
 		continue the action;
 	
+Sailoring is an action applying to nothing. Understand "Hello Sailor" as Sailoring.
+
+After Sailoring:
+	say "Nothing happens here.";
+	
+xyzzy is an action applying to nothing. Understand "xyzzy" as xyzzy.
+
+After xyzzy:
+	say "A hollow voice says [quotation mark]Fool![quotation mark].";
+
+Chapter 1 - First Room
+	
+[FIRST ROOM-------------------------------------]
 
 First Room is a room.
 The first door is a locked closed openable door. the indefinite article is "the". The first door is north of First Room and south of Second Room.
@@ -78,7 +93,9 @@ check turning off:
 		say "It is already off.";
 	otherwise:
 		say "That isn't something you can turn off.";
-		
+
+Chapter 2 - Second Room
+[SECOND ROOM--------------------------------]		
 
 Second Room is a room.
 	The large box is an opaque closed openable container in Second.
@@ -89,5 +106,7 @@ Second Room is a room.
 	the tiny key is a thing in the tiny box.
 
 The second door is a closed locked openable door. The indefinite article is "the".The second door is north of Second Room and south of Third Room. Second door is locked. The tiny key unlocks Second door.
-	
+
+Chapter 3 - Third Room
+[THIRD ROOM--------------------------------]	
 Third Room is a room.
