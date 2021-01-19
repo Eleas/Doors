@@ -2,13 +2,15 @@
 
 [Rules-----------------------------------------
 1.New rooms must be north of the previous room. No "side" rooms.
-2. Only one room per puzzle permitted.
+2. Only one room per puzzle.
 3. Rooms must be named for their place in the sequence (e.g. "First Room", "Second Room").
 4. Open your room code with a new chapter and comment, following the format of the first room.
-5. I have already put in some code to make the player lose all previous items when entering a new room, and the player cannot go south to a previous room without getting a "locked door" message. You can either make your own items for the next room, or you can pull one of the previously used items from "nowhere" when the player enters.
-6. Do not interfere with anyone else's room code unless it contains a game-breaking bug or unless we have discussed and agreed upon it in the project page.
-7. Each contributor may add as many new puzzles/rooms as they like, as long as they follow the format outlined above.
-8. Suggestions for an overall story are fine. For now, I'll put in something simple to get the point across.]
+5. There is already code to make the player lose all previous items when entering a new room, and the player cannot go south to a previous room without getting a "locked door" message. Do not remove this.You can either make your own items for the next room, or you can pull one of the previously used items from "nowhere" when the player enters.
+6. Do not interfere with anyone else's room code unless it contains a game-breaking bug or unless we have discussed and agreed upon it in the project discussion room.
+7. Each contributor may add as many new puzzles/rooms as they like, as long as they follow the format outlined above. Try not to make many rooms in a row, allowing others to contribute first.
+
+
+Suggestions for an overall story are fine. For now, I'll put in something simple to get the point across. The first two rooms are example rooms with simple puzzles.]
 
 When play begins:
 	say "Welcome volunteer! Thank you again for agreeing to undergo this simple intelligence test. You will be faced with a number of rooms. Inside each room is one puzzle. Solve each puzzle to open the next door. You can quit at any time by typing QUIT. Good luck!".
