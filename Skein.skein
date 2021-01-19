@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x1305db0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x7f3940b6c170"/>
+  <activeNode nodeId="node-0x1305db0"/>
   <item nodeId="node-0x1305db0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-Welcome volunteer! Thank you again for agreeing to undergo this simple intelligence test. You will be faced with a number of rooms. Inside of each is one puzzle. Solve each puzzle to open the next door. You can quit at any time by typing QUIT. Good luck!
+Welcome volunteer! Thank you again for agreeing to undergo this simple intelligence test. You will be faced with a number of rooms. Inside each room is one puzzle. Solve each puzzle to open the next door. You can quit at any time by typing QUIT. Good luck!
 
 Many Doors
 An Interactive Fiction by Y&apos;Gael of Atrii
@@ -19,7 +19,7 @@ You can see the first door here.
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
@@ -1092,7 +1092,7 @@ You can see the first door, the second door and a large box (closed) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1106,7 +1106,7 @@ You can see the first door, the second door and a large box (closed) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>

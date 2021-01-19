@@ -109,4 +109,5 @@ The second door is a closed locked openable door. The indefinite article is "the
 
 Chapter 3 - Third Room
 [THIRD ROOM--------------------------------]	
+
 Third Room is a room.
